@@ -17,6 +17,16 @@
       "32": "icons/songwhip-32x32.png"
     }
   },
+
+  "commands": {
+    "shortcut-pressed": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+U",
+        "linux": "Ctrl+Shift+U"
+      },
+      "description": "Send a 'toggle-feature' event to the extension"
+    }
+  },
   "background": {
     "scripts": ["background.js"]
   }
