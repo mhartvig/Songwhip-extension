@@ -8,11 +8,21 @@
   },
 
   "permissions": [
-    "tabs"
+    "tabs",
+    "*://songwhip.com/*",
+    "webRequest"
   ],
 
   "page_action": {
-    "show_matches": ["https://open.spotify.com/*"],
+    "show_matches": [
+      "https://open.spotify.com/*",
+      "https://music.apple.com/*",
+      "https://*.youtube.com/*",
+      "https://play.google.com/music/*",
+      "https://music.amazon.com/*",
+      "https://*.tidal.com/*",
+      "https://*.deezer.com/*"
+    ],
     "default_icon": {
       "32": "icons/songwhip-32x32.png"
     }
